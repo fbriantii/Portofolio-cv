@@ -123,6 +123,15 @@ body {
     max-height: 500px;
     height:350px;
 }
+#skill .card {
+    border-radius: 10px;
+    overflow: hidden;
+    border: 1px solid #ddd;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    max-height: 500px;
+    height:100px;
+}
+
 
 .card:hover {
     transform: translateY(-10px);
