@@ -4,11 +4,8 @@ body {
     font-family: 'Poppins', sans-serif;
     background-color: #f4f7fa;
     color: #333;
-}
-
-/* html, body {
     overflow-x: hidden;
-} */
+}
 
 
 /* Jumbotron Section */
@@ -16,12 +13,12 @@ body {
     padding-top: 2rem;
     background-color: #ffffff;
     color: #333;
-    text-align: center;     
+    text-align: center;
 }
 
 /* About Section */
 #about {
-    padding: 60px 0 ;
+    padding: 60px 0;
     background: #1E2A5E;
     color: white;
     
@@ -58,13 +55,13 @@ body {
     border-radius: 8px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
     transition: transform 0.3s ease-in-out;
+    max-height: 500px;
+    height: 275px;
 }
 
 
 .about-description:hover {
     transform: translateY(-5px);
-    max-height: 400px; 
-    height: 150px;
 }
 
 /* Contact Info Styles */
