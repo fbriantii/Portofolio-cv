@@ -20,6 +20,7 @@ body {
     padding: 60px 0;
     background: #1E2A5E;
     color: white;
+    
 }
 
 #about h2 {
@@ -42,6 +43,10 @@ body {
 }
 
 .about-description {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
     font-size: 1.1rem;
     color: white;
     background: rgba(255, 255, 255, 0.1);
@@ -49,7 +54,10 @@ body {
     border-radius: 8px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
     transition: transform 0.3s ease-in-out;
+    max-height: 500px;
+    height: 275px;
 }
+
 
 .about-description:hover {
     transform: translateY(-5px);
