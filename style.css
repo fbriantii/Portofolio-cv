@@ -234,3 +234,47 @@ body {
     color:black;
 }
 
+/* Navbar styles */
+.navbar-scroll {
+    background-color: #FFC017;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .navbar-scrolled {
+    background-color: #fff;
+  }
+  
+  .navbar-brand {
+    font-size: 1.25rem; /* Sesuaikan ukuran font */
+    height: auto;
+    color: #262626;
+  }
+  
+  .navbar-toggler-icon,
+  .navbar-nav .nav-link {
+    color: #262626;
+  }
+  
+  /* Navbar link styles */
+  .nav-link {
+    font-size: 0.9rem;
+    color: #262626;
+  }
+  
+  .nav-link:hover {
+    color: #FFC017;
+  }
+  
+  .navbar-nav .nav-item .nav-link .small {
+    font-size: 0.75rem;
+  }
+  
+  /* Scroll behavior */
+  .navbar-scroll {
+    padding: 0.75rem 1rem;
+  }
+  
+  .navbar-scrolled {
+    padding: 0.5rem 1rem;
+  }
+  
